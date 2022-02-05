@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/UnknownWorld/static/css/main.d6f3ee1f.css",
+    "main.js": "/UnknownWorld/static/js/main.2a8acd3c.js",
+    "static/js/787.c62ad320.chunk.js": "/UnknownWorld/static/js/787.c62ad320.chunk.js",
+    "index.html": "/UnknownWorld/index.html",
+    "main.d6f3ee1f.css.map": "/UnknownWorld/static/css/main.d6f3ee1f.css.map",
+    "main.2a8acd3c.js.map": "/UnknownWorld/static/js/main.2a8acd3c.js.map",
+    "787.c62ad320.chunk.js.map": "/UnknownWorld/static/js/787.c62ad320.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6f3ee1f.css",
+    "static/js/main.2a8acd3c.js"
+  ]
+}
