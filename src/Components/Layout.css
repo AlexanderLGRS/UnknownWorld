@@ -1,0 +1,36 @@
+.collapse {
+    justify-content: right;
+}
+
+.navbar {
+    font-family: "Amatic SC", cursive;
+    border-bottom: 2px solid white;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navbar-logo {
+    width: 50px;
+    margin: 0 20px;
+}
+
+.footer {
+    border-top: 2px solid white;
+    /* position: absolute; */
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+}
+
+@media screen and (min-width: 500px) {
+    .footer {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
