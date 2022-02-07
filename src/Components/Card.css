@@ -1,10 +1,25 @@
 .card {
     width: 90%;
     max-width: 300px;
-    margin: 20px auto;
+    margin: 20px 30px auto;
+    background-color: #e9d5f3;
 }
 
-.accordion-body {
+.card-caption {
     height: 200px;
     overflow-y: scroll;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body .btn {
+    width: 50%;
+}
+
+.card-body .badge {
+    width: auto;
+    margin: 10px 0 10px auto;
 }

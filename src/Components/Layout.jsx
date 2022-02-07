@@ -13,16 +13,13 @@ export default function Layout(props) {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">Home</a>
+                                <a className="nav-link active" aria-current="page" href="#">APOW</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">---</a>
+                                <a className="nav-link" href="#">APOD</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">---</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link">---</a>
+                                <a className="nav-link" href="#">MARS</a>
                             </li>
                         </ul>
                     </div>
