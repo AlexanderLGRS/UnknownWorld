@@ -33,6 +33,10 @@
     padding: 10px 0;
 }
 
+a {
+    text-decoration: none
+}
+
 @media screen and (min-width: 500px) {
     .footer {
         flex-direction: row;

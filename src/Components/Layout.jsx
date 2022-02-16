@@ -1,5 +1,6 @@
 import React from 'react'
 import './Layout.css'
+import { Link } from 'react-router-dom';
 export default function Layout(props) {
     return (
         <React.Fragment>
@@ -12,15 +13,21 @@ export default function Layout(props) {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav">
-                            <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="/UnknownWorld">APOW</a>
-                            </li>
+                            <Link to="/UnknownWorld">
+                                <li className="nav-item">
+                                    <a className="nav-link active" aria-current="page" href="/UnknownWorld">APOW</a>
+                                </li>
+                            </Link>
+                            <Link to="/UnknownWorld/APOD">
                             <li className="nav-item">
                                 <a className="nav-link" href="/APOD">APOD</a>
                             </li>
+                            </Link>
+                            <Link to="/UnknownWorld/MARS">
                             <li className="nav-item">
                                 <a className="nav-link" href="/Mars">MARS</a>
                             </li>
+                            </Link>
                         </ul>
                     </div>
                 </div>
