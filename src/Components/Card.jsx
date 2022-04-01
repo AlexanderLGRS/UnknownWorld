@@ -8,7 +8,7 @@ export default function Card(props) {
     return (
         <React.Fragment>
             <div className="card">
-                <img src={image} className="card-img-top" alt="Astronomic pic of Day" />
+                <img src={image} className="card-img-top" alt="Astronomic pic of the Day" />
                 <div className="card-body">
                     <h6 className="card-title">{title}</h6>
                     <h6 className="card-title">{date}</h6>
@@ -20,7 +20,7 @@ export default function Card(props) {
                             {caption}
                         </div>
                     </div>
-                    <span className="badge bg-warning text-dark">{copyright}</span>
+                    <span className="badge bg-info text-dark">{copyright}</span>
                 </div>
             </div>
         </React.Fragment>

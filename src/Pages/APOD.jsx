@@ -6,7 +6,7 @@ import './APOD.css'
 
 export default function APOD(props) {
     const today = new Date()
-    const todayFormat = (today.getFullYear() + '-' + parseInt(today.getMonth() + 1) + '-' + today.getDate())
+    const todayFormat = (today.getFullYear() + '-0' + parseInt(today.getMonth() + 1) + '-' + today.getDate())
     const [date, setDate] = useState('2000-01-01')
     const [APODTitle, setAPODTitle] = useState('')
     const [APODUrl, setAPODUrl] = useState('')

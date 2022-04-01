@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react";
 import './APOW.css';
 import Card from '../Components/Card';
 import SectionTitle from '../Components/SectionTitle';
@@ -33,13 +33,13 @@ export default function APOW() {
     )
 
     return (
-        <div className="App">
+        <React.Fragment>
             <SectionTitle title='Astronomy Pictures Of the Week' />
             <div className="cards-container">
                 {apodList.slice(0).reverse().map((apod) =>
                     <Card index={apodList.indexOf(apod)} key={Math.random()} image={apod.url} title={apod.title} date={apod.date} caption={apod.explanation} copyright={apod.copyright} />
                 )}
             </div>
-        </div>
+        </React.Fragment>
     );
 }

@@ -15,17 +15,17 @@ export default function Layout(props) {
                         <ul className="navbar-nav">
                             <Link to="/UnknownWorld">
                                 <li className="nav-item">
-                                    <a className="nav-link active" aria-current="page" href="/UnknownWorld">APOW</a>
+                                    APOW
                                 </li>
                             </Link>
                             <Link to="/UnknownWorld/APOD">
                             <li className="nav-item">
-                                <a className="nav-link" href="/APOD">APOD</a>
+                                APOD
                             </li>
                             </Link>
                             <Link to="/UnknownWorld/MARS">
                             <li className="nav-item">
-                                <a className="nav-link" href="/Mars">MARS</a>
+                                MARS
                             </li>
                             </Link>
                         </ul>

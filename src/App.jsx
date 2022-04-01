@@ -4,6 +4,7 @@ import './App.css';
 import Layout from './Components/Layout';
 import APOD from './Pages/APOD';
 import APOW from './Pages/APOW';
+import MARS from './Pages/MARS';
 
 
 export default function App() {
@@ -15,7 +16,7 @@ export default function App() {
           <Routes>
           <Route exact path="/UnknownWorld" element={<APOW />} />
           <Route exact path="/UnknownWorld/APOD" element={<APOD />} />
-          <Route exact path="/UnknownWorld/MARS" element={<h1>MARS</h1>} />
+          <Route exact path="/UnknownWorld/MARS" element={<MARS/>} />
           </Routes>
         </Layout>
       </BrowserRouter>

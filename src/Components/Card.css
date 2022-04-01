@@ -3,17 +3,13 @@
     max-width: 300px;
     padding-bottom: 20px;
     margin: 20px 30px auto;
-    background-color: #e9d5f3;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
     overflow: hidden;
 }
 
 .card-img-top {
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-bottom: 3px solid #fff;
 }
 
 .card-caption {

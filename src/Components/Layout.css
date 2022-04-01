@@ -3,7 +3,7 @@
 }
 
 .navbar {
-    font-family: "Amatic SC", cursive;
+    font-family: 'Amatic SC', cursive;
     border-bottom: 2px solid white;
 }
 
@@ -22,6 +22,16 @@
     font-weight: bold;
 }
 
+.navbar-collapse,
+.collapse {
+    display: flex;
+    justify-content: right;
+}
+
+.nav-item {
+    color: #fff;
+}
+
 .footer {
     border-top: 2px solid white;
     margin-top: 50px;
@@ -34,12 +44,20 @@
 }
 
 a {
-    text-decoration: none
+    text-decoration: none;
 }
 
 @media screen and (min-width: 500px) {
     .footer {
         flex-direction: row;
         justify-content: space-evenly;
+    }
+}
+
+@media screen and (min-width: 980px) {
+    .navbar-nav {
+        display: flex;
+        justify-content: space-evenly;
+        width: 50%;
     }
 }
